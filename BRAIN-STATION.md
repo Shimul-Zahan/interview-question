@@ -220,6 +220,8 @@ def quick_sort(arr):
 data = [3, 6, 8, 10, 1, 2, 1]
 print(quick_sort(data))
 
+---
+
 # 1. Which of the following is the next letter in the series? A, D, G, J, M, ?
 - **Options:**
   - a) P
