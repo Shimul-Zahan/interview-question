@@ -220,8 +220,6 @@ def quick_sort(arr):
 data = [3, 6, 8, 10, 1, 2, 1]
 print(quick_sort(data))
 
-
-
 # 1. Which of the following is the next letter in the series? A, D, G, J, M, ?
 - **Options:**
   - a) P
@@ -257,18 +255,7 @@ print(quick_sort(data))
 
 ---
 
-# 4. Which two words are closest in meaning?
-- **Options:**
-  - a) qualified, practicable
-  - b) practicable, feasible
-  - c) practicable, puissant
-  - d) feasible, mundane
-- **Answer:** b) practicable, feasible
-- **Explanation:** As explained above, both "practicable" and "feasible" refer to something that is possible or capable of being done.
-
----
-
-# 5. Which of the following algorithms is used for searching in a sorted array?
+# 4. Which of the following algorithms is used for searching in a sorted array?
 - **Options:**
   - a) Exponential Search
   - b) Binary Search
@@ -279,7 +266,7 @@ print(quick_sort(data))
 
 ---
 
-# 6. You need to find the shortest path between two nodes in an unweighted graph. Which algorithm would you use?
+# 5. You need to find the shortest path between two nodes in an unweighted graph. Which algorithm would you use?
 - **Options:**
   - a) Use Breadth-First Search (BFS)
   - b) Use Dijkstra's Algorithm
@@ -290,7 +277,7 @@ print(quick_sort(data))
 
 ---
 
-# 7. What is the way to access a method of a class without creating an object of the class?
+# 6. What is the way to access a method of a class without creating an object of the class?
 - **Options:**
   - a) By instantiating the class
   - b) By calling the method directly
@@ -301,7 +288,7 @@ print(quick_sort(data))
 
 ---
 
-# 8. What code number could be assigned to CARDANO if ETHEREUM was given the number 95?
+# 7. What code number could be assigned to CARDANO if ETHEREUM was given the number 95?
 - **Options:**
   - a) 55
   - b) 65
@@ -312,7 +299,7 @@ print(quick_sort(data))
 
 ---
 
-# 9. A pointer to the base class can hold the address of:
+# 8. A pointer to the base class can hold the address of:
 - **Options:**
   - a) Only derived class object
   - b) Base class object as well as derived class object
@@ -323,7 +310,7 @@ print(quick_sort(data))
 
 ---
 
-# 10. I am an odd number. Take away a letter and I become even. What number am I?
+# 9. I am an odd number. Take away a letter and I become even. What number am I?
 - **Options:**
   - a) 9
   - b) 11
@@ -334,7 +321,7 @@ print(quick_sort(data))
 
 ---
 
-# 11. A man walks 5 miles south, then 5 miles east, and finally, 5 miles north. In which direction is he from his starting point?
+# 10. A man walks 5 miles south, then 5 miles east, and finally, 5 miles north. In which direction is he from his starting point?
 - **Options:**
   - a) South
   - b) West
@@ -344,3 +331,300 @@ print(quick_sort(data))
 - **Explanation:** The man walks 5 miles south, 5 miles east, and then 5 miles north. If you follow this path, he will end up in the **same** position as where he started. But since the question asks for the direction, after walking north, he will be directly in the **same place**.
 
 ---
+
+# 11. Which of the following is correct to display all students with name, address, and age whose age is in the range of 15 to 20?
+- **Options:**
+  - a) `SELECT * FROM student WHERE age IN (15 to 20)`
+  - b) `SELECT * FROM student WHERE age NOT IN (15 AND 20)`
+  - c) `SELECT * FROM student WHERE age BETWEEN 15 AND 20`
+  - d) `SELECT * FROM student WHERE age NOT BETWEEN 15 AND 20`
+- **Answer:** c) `SELECT * FROM student WHERE age BETWEEN 15 AND 20`
+- **Explanation:** The `BETWEEN` keyword in SQL is used to filter records that fall within a specific range. Here, it retrieves students whose age is between 15 and 20, inclusive.
+
+
+
+
+## 1. Which class instance cannot be created?
+
+**Options:**
+
+- a. Abstract class
+- b. Base class
+- c. Anonymous class
+- d. Virtual class
+
+**Answer:** a. Abstract class
+
+**Explanation:**
+An **abstract class** cannot be instantiated directly because it may contain one or more abstract methods, which are methods declared without implementation. These methods need to be implemented by a subclass. Abstract classes provide a blueprint for other classes, but you can only create instances of non-abstract subclasses that implement the abstract methods.
+
+---
+
+## 2. What is normalization in a database?
+
+**Options:**
+
+- a. The process of adding redundant data to a table
+- b. The process of removing redundant data from a table
+- c. The process of optimizing data in a table
+- d. The process of organizing data in a table
+
+**Answer:** b. The process of removing redundant data from a table
+
+**Explanation:**
+**Normalization** is a database design technique that aims to minimize redundancy and dependency by organizing fields and tables of a database. The process involves decomposing a table into smaller, related tables and ensuring that each piece of information is stored in one place, thus reducing the chances of having duplicate data.
+
+---
+
+## 3. A duck is behind another duck. Another duck is in front of a duck. A third duck is in the middle of two ducks. What is the minimum number of ducks required to meet these criteria?
+
+**Answer:** 3
+
+**Explanation:**
+To meet all the given criteria:
+- Duck 1 is behind Duck 2.
+- Duck 2 is in front of Duck 1.
+- Duck 3 is between Duck 1 and Duck 2.
+Therefore, only 3 ducks are necessary to meet the condition: Duck 1, Duck 2, and Duck 3.
+
+---
+
+## 4. Which of the following statements is correct to display all the students with the name, address, and age whose age is in the range of 15 to 20 from the 'student' table?
+
+**Options:**
+
+- a. `SELECT * FROM student WHERE age NOT BETWEEN 15 AND 20`
+- b. `SELECT * FROM student WHERE age NOT IN (15 AND 20)`
+- c. `SELECT * FROM student WHERE age BETWEEN 15 AND 20`
+- d. `SELECT * FROM student WHERE age IN (15 to 20)`
+
+**Answer:** c. `SELECT * FROM student WHERE age BETWEEN 15 AND 20`
+
+**Explanation:**
+The `BETWEEN` keyword in SQL is used to select values within a given range. It is inclusive, meaning it includes both 15 and 20 in the range. Therefore, the correct SQL query to retrieve students whose age is between 15 and 20 is `SELECT * FROM student WHERE age BETWEEN 15 AND 20`.
+
+---
+
+## 5. Which of the following is/are correct in-order traversal sequence(s) of binary search tree(s)?
+
+**Options:**
+
+- a. 4, 6, 7, 12, 9, 18, 20
+- b. 5, 8, 9, 12, 10, 15, 25
+- c. 7, 10, 8, 14, 16, 20
+- d. 3, 5, 7, 8, 15, 19, 25
+
+**Answer:** b. 5, 8, 9, 12, 10, 15, 25
+
+**Explanation:**
+In-order traversal of a **binary search tree (BST)** visits nodes in ascending order. For a BST, this means visiting the left subtree, then the node, then the right subtree. For the given sequences, only option **b** represents a valid in-order traversal where the values are arranged in increasing order.
+
+---
+
+## 6. Explain the concept of an interface in OOP and its significance.
+
+**Options:**
+
+- a. An interface is a concrete class that provides a default implementation for methods.
+- b. An interface is a collection of method signatures without any implementation.
+- c. An interface is a way to encapsulate data within a class.
+- d. An interface is a type of inheritance used to extend a class.
+
+**Answer:** b. An interface is a collection of method signatures without any implementation.
+
+**Explanation:**
+An **interface** in Object-Oriented Programming (OOP) is a contract that defines a set of methods but does not provide their implementation. Classes that implement this interface must provide the actual implementations of these methods. Interfaces are used to achieve **abstraction** and **polymorphism**. They allow different classes to follow a common interface while implementing the behavior differently.
+
+---
+
+## 7. What is the main difference between a process and a thread?
+
+**Options:**
+
+- a. A process can run on multiple processors, while a thread can only run on one processor.
+- b. A process can run independently, while a thread must be part of a process.
+- c. A process has its own memory space, while a thread shares memory with other threads.
+- d. A process can have multiple threads, while a thread can only belong to one process.
+
+**Answer:** b. A process can run independently, while a thread must be part of a process.
+
+**Explanation:**
+A **process** is an independent unit of execution that has its own memory space. It runs on its own and can have multiple threads running within it. A **thread**, on the other hand, is a unit of execution within a process. All threads within the same process share the same memory space, which allows them to communicate with each other easily.
+
+---
+
+## 8. Which class cannot create its instance?
+
+**Options:**
+
+- a. Anonymous class
+- b. Nested class
+- c. Abstract class
+- d. Parent class
+
+**Answer:** c. Abstract class
+
+**Explanation:**
+An **abstract class** cannot be instantiated because it may contain abstract methods that have no implementation. The purpose of an abstract class is to provide a base for other classes to inherit from and implement those abstract methods. Instances can only be created from concrete (non-abstract) classes that provide implementations for all abstract methods.
+
+---
+
+## 9. What is the name of the approach that follows step-by-step instructions for solving a problem?
+
+**Options:**
+
+- a. Sequential Structure
+- b. A List
+- c. An Algorithm
+- d. A Plan
+
+**Answer:** c. An Algorithm
+
+**Explanation:**
+An **algorithm** is a finite set of well-defined, step-by-step instructions used to solve a problem or perform a task. It is the most precise way to define how to process data and produce a result.
+
+---
+
+## 10. Which of the following is the best way to achieve both abstraction and code reusability in OOP?
+
+**Options:**
+
+- a. Using global variables
+- b. Using function overloading
+- c. Using inheritance
+- d. Using abstract classes
+
+**Answer:** d. Using abstract classes
+
+**Explanation:**
+Abstract classes provide a way to achieve both **abstraction** and **code reusability**. An abstract class allows you to define a common base with abstract methods, which must be implemented by subclasses. This ensures that specific behavior is defined while enabling code reuse by inheriting from the abstract class.
+
+---
+
+## 11. Find five consecutive numbers below that total 22.
+
+**Options:**
+
+- a. 7, 39, 64, 1, 37
+- b. 93, 54, 1, 7, 6
+- c. 5, 4, 1, 7, 6
+- d. 5, 4, 3, 6, 8
+
+**Answer:** c. 5, 4, 1, 7, 6
+
+**Explanation:**
+Adding the numbers 5, 4, 1, 7, and 6 results in a sum of 22 (5 + 4 + 1 + 7 + 6 = 22). Thus, option **c** is the correct answer.
+
+---
+
+## 12. Which statement is true?
+
+**Options:**
+
+- a. WHERE and HAVING clause filter rows
+- b. Both WHERE and HAVING can be used in the same query
+- c. WHERE and HAVING clause can be used interchangeably in any case
+
+**Answer:** b. Both WHERE and HAVING can be used in the same query
+
+**Explanation:**
+Both `WHERE` and `HAVING` can be used in the same SQL query, but they apply at different stages:
+- **WHERE** filters rows before any aggregation takes place.
+- **HAVING** filters rows after aggregation (usually in a `GROUP BY` query).
+
+---
+
+## 13. What is the purpose of the HAVING clause in SQL?
+
+**Options:**
+
+- a. To filter the results of a query based on aggregate calculations
+- b. To perform aggregate calculations on data
+- c. To update data in a table
+- d. To retrieve data from multiple tables
+
+**Answer:** a. To filter the results of a query based on aggregate calculations
+
+**Explanation:**
+The `HAVING` clause is used to filter the results after an aggregate function, such as `COUNT()`, `SUM()`, `AVG()`, etc., has been applied. It is often used in conjunction with the `GROUP BY` clause.
+
+---
+
+## 14. For an undirected graph G with N vertices and E edges, the sum of the degrees of each vertex is:
+
+**Options:**
+
+- a. 2E
+- b. NE
+- c. N²
+- d. E
+
+**Answer:** a. 2E
+
+**Explanation:**
+In an undirected graph, each edge contributes two to the sum of degrees (one for each endpoint). Therefore, the sum of the degrees of all vertices is always equal to **2E**, where **E** is the number of edges in the graph.
+
+
+
+---
+
+## 15. What is the output of the following bitwise operations?
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 1;
+    cout << (x << 1) << endl;
+    return 0;
+}
+
+---
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int *p = arr;
+    int *q = arr + 2;
+    cout << *(q + 1) << endl;
+    return 0;
+}
+**Answer:** 4
+
+**Explanation: In the given code:**
+
+-arr is an array of integers with values {1, 2, 3, 4, 5}.
+-p points to the first element of the array.
+-q points to the third element (index 2) of the array.
+-The expression *(q + 1) means dereferencing the pointer q + 1, which moves the pointer from -the third element (which is 3) to the fourth element (which is 4). Thus, the output is 4
+
+---
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int total = 16;
+    int count = 0;
+    while (total > 1) {
+        total /= 2;
+        count++;
+    }
+    return 0;
+}
+
+**Options:**
+
+-a. O(N^2)
+-b. O(N/2)
+-c. O(log N)
+-d. O(N)
+**Answer:** c. O(log N)
+
+**Explanation:**
+ -In the given code, total is being halved in each iteration of the while loop (total /= 2). This means the loop will continue running for log(total) iterations, which is O(log N) in time complexity. As the value of total is halved until it becomes 1, the time complexity grows logarithmically with respect to the input size.
