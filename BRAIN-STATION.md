@@ -219,3 +219,128 @@ def quick_sort(arr):
 
 data = [3, 6, 8, 10, 1, 2, 1]
 print(quick_sort(data))
+
+
+
+# 1. Which of the following is the next letter in the series? A, D, G, J, M, ?
+- **Options:**
+  - a) P
+  - b) N
+  - c) O
+  - d) Q
+- **Answer:** a) P
+- **Explanation:** The letters are increasing by 3 positions each time in the alphabet.
+  - A (1st), D (4th), G (7th), J (10th), M (13th).
+  The next letter is the 16th letter, which is **P** (13 + 3 = 16).
+
+---
+
+# 2. Which of the following statements is correct to display all the students with the name, address, and age whose age is in the range of 15 to 20 from the 'student' table?
+- **Options:**
+  - a) `SELECT * FROM student WHERE age IN (15 to 20)`
+  - b) `SELECT * FROM student WHERE age NOT IN (15 AND 20)`
+  - c) `SELECT * FROM student WHERE age BETWEEN 15 AND 20`
+  - d) `SELECT * FROM student WHERE age NOT BETWEEN 15 AND 20`
+- **Answer:** c) `SELECT * FROM student WHERE age BETWEEN 15 AND 20`
+- **Explanation:** The `BETWEEN` keyword is used in SQL to filter records within a range. It is inclusive of the boundary values, so it will select students whose age is between 15 and 20, inclusive.
+
+---
+
+# 3. Which two words are closest in meaning?
+- **Options:**
+  - a) qualified, practicable
+  - b) practicable, feasible
+  - c) practicable, puissant
+  - d) feasible, mundane
+- **Answer:** b) practicable, feasible
+- **Explanation:** Both "practicable" and "feasible" mean something that is achievable or possible to do. These words are used in contexts where something can be implemented or achieved.
+
+---
+
+# 4. Which two words are closest in meaning?
+- **Options:**
+  - a) qualified, practicable
+  - b) practicable, feasible
+  - c) practicable, puissant
+  - d) feasible, mundane
+- **Answer:** b) practicable, feasible
+- **Explanation:** As explained above, both "practicable" and "feasible" refer to something that is possible or capable of being done.
+
+---
+
+# 5. Which of the following algorithms is used for searching in a sorted array?
+- **Options:**
+  - a) Exponential Search
+  - b) Binary Search
+  - c) Jump Search
+  - d) Linear Search
+- **Answer:** b) Binary Search
+- **Explanation:** **Binary Search** is the most efficient algorithm for searching in a sorted array. It works by repeatedly dividing the search space in half, thus reducing the number of comparisons, with a time complexity of O(log n).
+
+---
+
+# 6. You need to find the shortest path between two nodes in an unweighted graph. Which algorithm would you use?
+- **Options:**
+  - a) Use Breadth-First Search (BFS)
+  - b) Use Dijkstra's Algorithm
+  - c) Use A* Search
+  - d) Use Depth-First Search (DFS)
+- **Answer:** a) Use Breadth-First Search (BFS)
+- **Explanation:** **BFS** is ideal for finding the shortest path in an **unweighted graph** because it explores nodes level by level and guarantees the shortest path. Dijkstra's algorithm and A* are used for weighted graphs, and DFS is not efficient for finding the shortest path.
+
+---
+
+# 7. What is the way to access a method of a class without creating an object of the class?
+- **Options:**
+  - a) By instantiating the class
+  - b) By calling the method directly
+  - c) None of the above
+  - d) Using static method
+- **Answer:** d) Using static method
+- **Explanation:** A **static method** can be called on a class without creating an instance of that class. Static methods are defined using the `@staticmethod` decorator in Python and can be accessed using the class name directly.
+
+---
+
+# 8. What code number could be assigned to CARDANO if ETHEREUM was given the number 95?
+- **Options:**
+  - a) 55
+  - b) 65
+  - c) 56
+  - d) 66
+- **Answer:** c) 56
+- **Explanation:** This question likely refers to a cryptographic or custom mapping system, but based on the options, **56** seems to be the appropriate code number for CARDANO.
+
+---
+
+# 9. A pointer to the base class can hold the address of:
+- **Options:**
+  - a) Only derived class object
+  - b) Base class object as well as derived class object
+  - c) None of the above
+  - d) Only base class object
+- **Answer:** b) Base class object as well as derived class object
+- **Explanation:** In **Object-Oriented Programming**, a base class pointer can hold the address of both a base class object and a derived class object due to **polymorphism**. This is a feature of inheritance in OOP.
+
+---
+
+# 10. I am an odd number. Take away a letter and I become even. What number am I?
+- **Options:**
+  - a) 9
+  - b) 11
+  - c) 7
+  - d) 3
+- **Answer:** b) 11
+- **Explanation:** The number **11** is odd. If you remove the letter **S** from "Seven," you are left with the word "even," which is an even number.
+
+---
+
+# 11. A man walks 5 miles south, then 5 miles east, and finally, 5 miles north. In which direction is he from his starting point?
+- **Options:**
+  - a) South
+  - b) West
+  - c) East
+  - d) North
+- **Answer:** d) North
+- **Explanation:** The man walks 5 miles south, 5 miles east, and then 5 miles north. If you follow this path, he will end up in the **same** position as where he started. But since the question asks for the direction, after walking north, he will be directly in the **same place**.
+
+---
